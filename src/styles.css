@@ -1,1 +1,285 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+#footer {
+  width: 1440px;
+  height: 100px;
+  background: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  text-align: center;
+  align-content: center;
+}
+#header {
+  display: grid;
+  height: 150px;
+  width: auto;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+  grid-template-columns: 3fr 1fr;
+}
+#cajaLogo {
+  height: 150px;
+  width: 600px;
+  float: left;
+}
+#cajaNav {
+  height: 150px;
+  width: auto;
+  float: right;
+}
+#logo {
+  position: absolute;
+  width: 214px;
+  height: 80px;
+  left: 100px;
+  top: 46px;
+}
+#nav {
+  font-family: Montserrat;
+  align-content: right;
+}
+#nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-right: 20px;
+}
+#nav ul li {
+  display: inline-block;
+  line-height: 150px;
+  right: 150px;
+}
+#nav ul li a {
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+#slider {
+  width: 100%;
+  margin: 30px auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+#slider ul {
+  padding: 0;
+  display: flex;
+  width: 1500px;
+
+  animation: cambio 15s infinite;
+}
+#slider li {
+  list-style: none;
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  } /* 4 segundos primera imagen 1 segundo camboi de imagen */
+  20% {
+    margin-left: 0;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+}
+.texto-encima {
+  font-size: 30px;
+  text-align: left;
+  color: white;
+  padding: 50px;
+  position: absolute;
+}
+.youtube {
+  background-color: transparent;
+  border-radius: 25px;
+  border: solid white;
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 12px;
+  margin: 0px;
+}
+.botonyoutube {
+  text-decoration: none;
+  color: white;
+}
+
+.titulo1 {
+  font-size: 45px;
+  margin: 0px;
+}
+.titulo2 {
+  margin: 0px;
+}
+.titulo3 {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.padre {
+  padding: 50px;
+}
+
+.canciones {
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+  background: white;
+  box-shadow: 5px 5px 20px gainsboro;
+  border-radius: 70px;
+}
+
+.tituloCanciones {
+  margin-left: 30px;
+}
+
+audio {
+  color: gainsboro;
+  outline: none;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.tituloLista h3 span {
+  font-weight: bold;
+  font-size: 30px;
+  display: block;
+}
+.verCanciones {
+  color: #df7fbd;
+}
+
+#contenedorGeneral {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 0;
+}
+/* CSS LISTA DE REPRODUCCION */
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+
+.padreSidebar {
+  padding: 50px;
+  min-width: 418px;
+  padding: 50px;
+}
+
+.canciones1 {
+  padding: 20px;
+  background: white;
+  box-shadow: 5px 5px 20px gainsboro;
+  margin: 20px;
+  border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgredonda {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.tituloCanciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+audio {
+  padding: 10px;
+  color: gainsboro;
+  outline: none;
+}
+.bit {
+  position: absolute;
+  width: 225px;
+  height: 43px;
+  left: 958px;
+  top: 1218px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
+}
+hr {
+  align-self: left;
+}
+#ir {
+  width: 180px;
+  height: 50px;
+  left: 981px;
+  top: 1373px;
+  border: 1.5px solid #f32baa;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #f32baa;
+  box-sizing: border-box;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+.canciones h3 span {
+  font-weight: bold;
+  font-size: 30px;
+  display: block;
+}
+.tituloCanciones h2 span {
+  font-size: 20px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+.canciones img {
+  margin-bottom: 50px;
+}
+.canciones hr {
+  margin-bottom: 40px;
+}
+.tituloCanciones h2 {
+  margin-bottom: 30px;
+}
